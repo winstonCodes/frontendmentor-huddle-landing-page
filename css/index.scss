@@ -193,9 +193,9 @@ footer {
     }
     .section-content {
       flex-basis: 70%;
-      justify-content: center;
+      justify-content: flex-start;
       button {
-        z-index: 5;
+        margin-top: 3vh;
       }
     }
   }

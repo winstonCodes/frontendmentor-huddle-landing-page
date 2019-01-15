@@ -192,10 +192,10 @@ footer .social-icons i {
   }
   .half-img-half-text .section-content {
     flex-basis: 70%;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .half-img-half-text .section-content button {
-    z-index: 5;
+    margin-top: 3vh;
   }
 
   footer {
