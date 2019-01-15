@@ -84,6 +84,7 @@ header .logo {
   width: 200px;
   border-radius: 30px;
   color: #674baf;
+  background-color: white;
   font-size: 1.125em;
   box-shadow: 1px 5px 8px 3px rgba(0, 0, 0, 0.3);
 }
@@ -192,10 +193,10 @@ footer .social-icons i {
   }
   .half-img-half-text .section-content {
     flex-basis: 70%;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .half-img-half-text .section-content button {
-    margin-top: 3vh;
+    margin-top: 1vh;
   }
 
   footer {
