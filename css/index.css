@@ -177,12 +177,7 @@ footer .social-icons i {
     margin: 25% 0 0 5vw;
   }
 }
-@media (max-width: 454px) {
-  body {
-    font-size: 0.9em;
-  }
-}
-@media (max-width: 415px) {
+@media (max-width: 600px) {
   body {
     font-size: 0.8em;
     height: 130vh;

@@ -104,7 +104,7 @@ footer {
     flex-basis: 30%;
     align-self: flex-start;
     margin-right: 5vw;
-    i { margin-right: 20px;}
+    i{ margin-right: 20px;}
   }
 }
 
@@ -176,14 +176,14 @@ footer {
     }
   }
 }
+// 
+// @media (max-width: 454px) {
+//   body {
+//     font-size: 0.9em;
+//   }
+// }
 
-@media (max-width: 454px) {
-  body {
-    font-size: 0.9em;
-  }
-}
-
-@media (max-width: 415px) {
+@media (max-width: 600px) {
   body {
     font-size: 0.8em;
     height: 130vh;
