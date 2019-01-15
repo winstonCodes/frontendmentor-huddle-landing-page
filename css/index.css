@@ -138,7 +138,7 @@ footer .social-icons i {
     background-image: url("../images/bg-mobile.svg");
     background-size: contain;
     background-position: top;
-    padding: 10vh 10vw 0 10vw;
+    padding: 13vh 10vw 0 10vw;
     height: 100vh;
   }
   .half-img-half-text .section-image {
@@ -166,12 +166,12 @@ footer .social-icons i {
     display: block;
     align-self: center;
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 2;
   }
   footer .social-icons {
     display: block;
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 1;
     text-align: center;
     margin: 25% 0 0 5vw;
   }
@@ -184,19 +184,6 @@ footer .social-icons i {
 @media (max-width: 415px) {
   body {
     font-size: 0.8em;
-  }
-}
-@media (max-width: 375px) {
-  .half-img-half-text .section-content button {
-    height: 40px;
-  }
-
-  footer .social-icons {
-    margin-top: 35%;
-  }
-}
-@media (max-width: 370px) {
-  body {
     height: 130vh;
   }
 
@@ -205,13 +192,24 @@ footer .social-icons i {
   }
   .half-img-half-text .section-content {
     flex-basis: 70%;
+    justify-content: center;
   }
 
   footer {
     position: relative;
+    justify-content: center;
   }
   footer .social-icons {
-    margin-top: 0;
+    margin-top: 0%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 375px) {
+  .half-img-half-text .section-content button {
+    height: 40px;
   }
 }
 
