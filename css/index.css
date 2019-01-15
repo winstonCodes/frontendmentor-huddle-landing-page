@@ -194,6 +194,9 @@ footer .social-icons i {
     flex-basis: 70%;
     justify-content: center;
   }
+  .half-img-half-text .section-content button {
+    z-index: 5;
+  }
 
   footer {
     position: relative;
